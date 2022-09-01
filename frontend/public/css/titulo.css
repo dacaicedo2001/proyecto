@@ -1,0 +1,7 @@
+.titulo {
+    text-transform: capitalize;
+    color: var(--verde);
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px solid var(--amarillo);
+}

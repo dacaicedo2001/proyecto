@@ -1,0 +1,24 @@
+.quienes-somos {
+    background-image: url("/web/proyecto/frontend/src/images/fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quienes-somos, .quienes-somos div {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    gap: var(--padding);
+    align-items: center;
+}
+
+.quienes-somos video {
+    width: 100%;
+    margin-bottom: var(--padding);
+    border-radius: var(--bordes);
+}
+
+.quienes-somos p {
+    text-align: justify;
+}

@@ -1,0 +1,8 @@
+header h1 {
+    background-color: var(--azul);
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--blanco);
+    text-transform: capitalize;
+    padding: var(--padding);
+}

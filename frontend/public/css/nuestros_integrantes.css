@@ -1,0 +1,41 @@
+
+.nuestros-integrantes div {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    gap: var(--padding);
+    align-items: center;
+}
+
+.nuestros-integrantes {
+    padding: var(--padding);
+}
+
+.nuestros-integrantes p {
+    text-align: justify;
+}
+
+.lista-entidades {
+    height: 500px;
+    overflow: hidden auto;
+}
+
+.lista-entidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lista-entidades li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--padding) 0px;
+    text-transform: capitalize;
+}
+
+.lista-entidades li a img {
+    width: 100px;
+    border-radius: var(--bordes);
+    margin-bottom: 5px;
+}

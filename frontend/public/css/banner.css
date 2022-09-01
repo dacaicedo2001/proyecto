@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: var(--max-longitud);
+    height: 250px;
+}
+
+.banner ul {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul img {
+    width: 100vw;
+    height: 100%;
+    animation: desplazar 10s ease-in-out infinite alternate;
+}
+
+.banner i {
+    position: absolute;
+    color: var(--blanco);
+}
+
+.izq {
+    left: var(--padding);
+}
+
+.der {
+    right: var(--padding);
+}

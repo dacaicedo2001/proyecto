@@ -1,0 +1,66 @@
+footer {
+    background-color: var(--verde);
+    padding-top: 5px;
+}
+
+footer hr {
+    margin-left: var(--padding);
+    margin-right: var(--padding);
+    border-color: transparent;
+    background-color: var(--amarillo);
+    color: var(--amarillo);
+    outline-color: var(--amarillo);
+}
+
+.contactos {
+    padding: var(--padding) 30px;
+}
+
+.item {
+    color: var(--blanco);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.item span {
+    text-transform: capitalize;
+}
+
+.contenedor-redes p {
+    font-weight: bold;
+}
+
+.contenedor-logo-pie {
+    text-align: center;
+    color: var(--blanco);
+    padding: var(--padding) 0px;
+    text-transform: capitalize;
+}
+
+.logo-pie {
+    width: 200px;
+    height: auto;
+}
+
+.legal {
+    background-color: var(--amarillo);
+    padding: var(--padding);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.contenedor-redes {
+    text-align: center;
+    padding: var(--padding);
+    text-transform: capitalize;
+    color: var(--blanco);
+    font-size: 1.5rem;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding);    
+    color: var(--blanco);
+    font-size: 2.5rem;
+}

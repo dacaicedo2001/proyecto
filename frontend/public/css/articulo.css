@@ -1,0 +1,30 @@
+.articulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: var(--blanco);
+    padding: var(--padding);
+    border-radius: var(--bordes);
+    border: 2px solid #CCC;
+    gap: var(--padding);
+}
+
+.articulo hr {
+    border-color: transparent;
+    background-color: #CCC;
+    color: #CCC;
+    outline-color: #CCC;
+}
+
+.articulo div img {
+    width: 250px;
+    height: 200px;
+    border-radius: var(--bordes);
+}
+
+.articulo a {
+    font-weight: bold;
+    color: var(--verde);
+    text-transform: capitalize;
+}

@@ -1,0 +1,56 @@
+.empleabilidad {
+    background-image: url('/web/proyecto/frontend/src/images/empleabilidad.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-empleabilidad {
+    background-color: var(--fondo);
+    padding: var(--padding);
+}
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding) 0px 5px 0px;
+}
+
+.tabla {
+    overflow-x: scroll;
+    padding: var(--padding);
+}
+
+.capitalizada {
+    text-transform: capitalize;
+}
+
+.encabezado {
+    color: var(--verde);
+}
+
+table th {
+    background-color: var(--blanco);
+}
+
+table, th, td {
+    border: 1.5px solid var(--negro);
+    padding: 5px var(--padding);
+    border-collapse: collapse;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: var(--gris);
+}
+
+table tbody tr:nth-child(even){
+    background-color: var(--blanco);
+}
+
+table tr a {
+    display: block;
+    width: max-content;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: underline;
+}

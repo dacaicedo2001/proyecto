@@ -1,0 +1,38 @@
+/* Variables */
+:root {
+    --amarillo: #F8F32B;
+    --verde: #009E0F;
+    --blanco: #FFF;
+    --negro: #000;
+    --azul: #3B5998;
+    --rojo: #CC0000;
+    --fondo: rgba(255, 255, 255, 0.6);
+    --gris: rgb(220, 220, 220);
+    --gris-oscuro: #9C9C9C;
+    --padding: 15px;
+    --bordes: 10px;
+    --max-longitud: 100%;
+}
+
+/* Estilos globales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: var(--max-longitud);
+    height: var(--max-longitud);
+    background-color: var(--blanco);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

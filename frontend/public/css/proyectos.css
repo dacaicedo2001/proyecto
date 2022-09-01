@@ -1,0 +1,47 @@
+.proyectos, .contenedor-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    height: 95vh;
+}
+
+.buscador {
+    padding: 5px;
+    outline-color: #00AAE4;
+}
+
+.proyectos {
+    align-items: center;
+    padding: 30px var(--padding) var(--padding) var(--padding);
+}
+
+.vista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    height: 100%;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+}
+
+.vista h2, .lista-proyectos > a {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.lista-proyectos ul {
+    padding: 0px var(--padding);
+    height: 90px;
+    overflow-y: auto;
+}
+
+.lista-proyectos ul li a {
+    display: block;
+    padding: 5px 0px;
+}

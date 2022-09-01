@@ -1,0 +1,110 @@
+
+/* Estilos del icono y la hamburguesa */
+nav, .inicio, .iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--max-longitud);
+}
+
+nav {
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+}
+
+.iconos {
+    padding: var(--padding);
+}
+
+.menu, .flecha {
+    font-size: 2rem;
+}
+
+.menu-cerrado {
+    color: var(--verde);
+}
+
+.menu-abierto {
+    color: var(--rojo);
+}
+
+/* Botones de inicio de sesion y registro */
+.inicio li {
+    width: 50%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.inicio li:nth-child(1) a {
+    display: block;
+    background-color: var(--amarillo);
+    color: var(--negro);
+    padding: var(--padding) 0px;
+}
+
+.inicio li:nth-child(2) a {
+    display: block;
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: var(--padding) 0px;
+}
+
+/* Barra de navegacion */
+.iconos {
+    position: fixed;
+    background-color: #FAFAFA;
+    z-index: 20;
+    height: 60px;
+}
+
+.contenedor-iconos {
+    height: 60px;
+    width: 100%;
+}
+
+#lista-items {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: calc(100% - 60px);
+    background-color: var(--azul);
+    transition: width 0.5s ease;
+    overflow: hidden auto;
+    z-index: 10;
+}
+
+#lista-items a {
+    display: flex;
+    align-items: center;
+    width: var(--max-longitud);
+    margin: var(--padding);
+    padding: var(--padding);
+    color: var(--blanco);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+#lista-items a i {
+    margin-left: 5px;
+}
+
+.lista-items-cerrada {
+    width: 0;
+}
+
+.lista-items-abierta {
+    width: 60%;
+}
+
+.sub-menu {
+    display: none;
+}
+
+#lista-items li:hover > .sub-menu {
+    display: block;
+    padding-left: 30px;
+}
