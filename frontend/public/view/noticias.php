@@ -104,6 +104,8 @@
                     <?php require("../../src/components/articulo.php"); ?>
                 </div>
             </section>
+            <?php include_once("../../src//components/aside.php"); ?>
         </main>
+        <?php include_once("../../src/components/footer.php"); ?>
     </body>
 </html>

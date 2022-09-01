@@ -1,0 +1,80 @@
+aside {
+    display: flex;
+    position: fixed;
+    transition: width 0.5s ease;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 2.5rem;
+    z-index: 10;
+}
+
+aside h3 {
+    text-transform: capitalize;
+    color: var(--blanco);
+}
+
+aside i {
+    font-size: 2.5rem;
+    color: var(--blanco);
+    background-color: var(--verde);
+    padding: 10px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+aside hr {
+    border-color: transparent;
+    background-color: #CCC;
+    color: #CCC;
+    outline-color: #CCC;
+}
+.open-aside {
+    width: 80%;
+}
+
+.titulo-aside {
+    text-align: center;
+    color: var(--verde);
+}
+
+.contenedor-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15px;
+    background-color: #ECECEC;
+    justify-content: center;
+    z-index: 10;
+    height: var(--max-longitud);
+    width: var(--max-longitud);
+}
+
+.contenedor-aside button {
+    font-size: 1.2rem;
+    padding: 5px var(--padding);
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--verde);
+    gap: var(--padding);
+    padding: var(--padding);
+    border-radius: var(--bordes);
+}
+
+.opcion {
+    width: 100%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    outline-color: #00AAE4;
+    border: 1px solid #00AAE4;
+}

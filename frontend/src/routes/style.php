@@ -28,4 +28,7 @@
 
     /* Estilos del pie de página */
     define("PIE", "/proyecto/frontend/public/css/footer.css");
+
+    /* Estilos de la barra de filtro */
+    define("ASIDE", "/proyecto/frontend/public/css/aside.css");
 ?>
