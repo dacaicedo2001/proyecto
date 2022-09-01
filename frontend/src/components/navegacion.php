@@ -9,11 +9,11 @@
     </div>
     <!-- Lista de itenes -->
     <ul id="lista-items" class="lista-items-cerrada">
-        <li><a href="/Red/index.php" class="item-menu">inicio</a></li>
+        <li><a href=<?php echo PAGINA_PRINCIPAL; ?> class="item-menu">inicio</a></li>
         <li>
             <a>publicaciones <i class="fa-solid fa-angle-down"></i></a>
             <ul class="sub-menu">
-                <li><a href="/Red/view/noticias.php" class="item-menu">noticias</a></li>
+                <li><a href=<?php echo PAGINA_NOTICIAS; ?> class="item-menu">noticias</a></li>
                 <li><a href="#" class="item-menu">proyectos</a></li>
                 <li><a href="#" class="item-menu">empleabilidad</a></li>
                 <li><a href="#" class="item-menu">expoferias y eventos</a></li>
@@ -55,3 +55,4 @@
         <li><a href="#" id="boton-registro">registro</a></li>
     </ul>
 </nav>
+<script src=<?php echo MENU; ?>></script>

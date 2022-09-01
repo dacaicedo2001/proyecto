@@ -6,6 +6,6 @@
             titulo("noticias");
         ?>
         <?php require_once("../src/components/noticias_destacadas.php"); ?>
-        <a class="titulo bold" href="">ver todas las noticias</a>
+        <a class="titulo bold" href=<?php echo PAGINA_NOTICIAS; ?>>ver todas las noticias</a>
     </div>
 </section>

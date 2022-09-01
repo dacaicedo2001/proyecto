@@ -10,8 +10,11 @@
         <title>Document</title>
     </head>
     <body>
+        <!-- Rutas -->
         <?php require_once("../src/routes/style.php"); ?>
-        <?php require_once("../src/routes/images.php"); ?>        
+        <?php require_once("../src/routes/images.php"); ?>
+        <?php require_once("../src/routes/script.php"); ?>
+        <?php require_once("../src/routes/pages.php"); ?>
         <header>
             <?php require_once("../src/components/navegacion.php"); ?>
             <?php require_once("../src/components/banner.php"); ?>

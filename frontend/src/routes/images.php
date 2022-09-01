@@ -1,9 +1,9 @@
 <?php
     /* Logo de la red local */
-    define("LOGO", "../src/images/logo.png");
+    define("LOGO", "/proyecto/frontend/src/images/logo.png");
 
     /* Fondo con la imagen de buenaventura */
-    define("FONDO", "../src/images/fondo.png");
+    define("FONDO", "/proyecto/frontend/src/images/fondo.png");
 
     /* Imagenes del banner dinamico */
     define("ENTIDAD1", "../src/images/primera.jpg");

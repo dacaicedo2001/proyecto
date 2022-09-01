@@ -45,3 +45,16 @@
     display: block;
     padding: 5px 0px;
 }
+
+.contenedor-proyectos hr {
+    border-color: transparent;
+    background-color: #CCC;
+    color: #CCC;
+    outline-color: #CCC;
+}
+
+.lista-proyectos ul a {
+    font-weight: bold;
+    color: var(--verde);
+    text-transform: capitalize;
+}
