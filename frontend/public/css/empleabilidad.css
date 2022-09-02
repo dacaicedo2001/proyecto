@@ -7,18 +7,11 @@
 
 .contenedor-empleabilidad {
     background-color: var(--fondo);
-    padding: var(--padding);
-}
-
-.contenedor-titulo {
-    display: flex;
-    justify-content: center;
-    padding: var(--padding) 0px 5px 0px;
 }
 
 .tabla {
     overflow-x: scroll;
-    padding: var(--padding);
+    padding: var(--padding) 30px;
 }
 
 .capitalizada {

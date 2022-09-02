@@ -1,5 +1,5 @@
 
-.nuestros-integrantes div {
+.nuestros-integrantes .contenedor {
     display: flex;
     flex-direction: column;
     padding: var(--padding);
@@ -7,21 +7,15 @@
     align-items: center;
 }
 
-.nuestros-integrantes {
-    padding: var(--padding);
-}
-
 .nuestros-integrantes p {
     text-align: justify;
-}
-
-.lista-entidades {
-    height: 500px;
-    overflow: hidden auto;
+    padding: 0px var(--padding);
 }
 
 .lista-entidades {
     display: grid;
+    overflow: hidden auto;
+    height: 500px;
     grid-template-columns: repeat(3, 1fr);
 }
 

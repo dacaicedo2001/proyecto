@@ -1,4 +1,3 @@
-<script src="https://kit.fontawesome.com/22cdbfb1be.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href=<?php echo ASIDE; ?>>
 <aside id="aside">
     <i class="fa-solid fa-angle-left" id="despliegue"></i>

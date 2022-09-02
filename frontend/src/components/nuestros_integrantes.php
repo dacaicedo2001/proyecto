@@ -1,11 +1,11 @@
 <link rel="stylesheet" href=<?php echo NUESTROS_INTEGRANTES; ?>>
 <section class="nuestros-integrantes">
-    <div>
-        <?php
-            require_once("../src/components/titulo.php");
-            require_once("../src/components/empresa.php");
-            titulo("nuestros integrantes");
-        ?>
+    <?php
+        require_once("../src/components/titulo.php");
+        require_once("../src/components/empresa.php");
+        titulo("nuestros integrantes");
+    ?>
+    <div class="contenedor">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consectetur ad aspernatur illo magni earum amet, autem temporibus porro sint vero magnam quis illum tempore. Debitis nulla minus harum reprehenderit?</p>
         <ul class="lista-entidades">
             <?php empresa("#", "acdivoca", ENTIDAD2); ?>

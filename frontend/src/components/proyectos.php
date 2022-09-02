@@ -6,7 +6,7 @@
     ?>
     <div class="contenedor-proyectos">
         <aside class="lista-proyectos">
-            <input class="buscador" type="search" name="busqueda" id="busqueda" placeholder="Buscar">
+            <?php require_once("../src/components/buscador.php"); ?>
             <ul>
                 <li><a href="#">proyecto 1</a></li>
                 <li><a href="#">proyecto 2</a></li>

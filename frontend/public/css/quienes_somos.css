@@ -5,20 +5,23 @@
     background-size: cover;
 }
 
-.quienes-somos, .quienes-somos div {
+.quienes-somos {
     display: flex;
     flex-direction: column;
-    padding: var(--padding);
     gap: var(--padding);
     align-items: center;
 }
 
-.quienes-somos video {
-    width: 100%;
-    margin-bottom: var(--padding);
-    border-radius: var(--bordes);
+.quienes-somos p {
+    padding: 0px 30px;
+    text-align: justify;
 }
 
-.quienes-somos p {
-    text-align: justify;
+.video {
+    padding: var(--padding);
+}
+
+.quienes-somos video, .video {
+    width: 100%;
+    border-radius: var(--bordes);
 }

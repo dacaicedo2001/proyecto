@@ -1,18 +1,8 @@
-.proyectos, .contenedor-proyectos {
+.contenedor-proyectos {
     display: flex;
     flex-direction: column;
     gap: var(--padding);
     height: 95vh;
-}
-
-.buscador {
-    padding: 5px;
-    outline-color: #00AAE4;
-}
-
-.proyectos {
-    align-items: center;
-    padding: 30px var(--padding) var(--padding) var(--padding);
 }
 
 .vista {
@@ -36,8 +26,8 @@
 }
 
 .lista-proyectos ul {
-    padding: 0px var(--padding);
-    height: 90px;
+    padding: 0px 30px;
+    height: 100px;
     overflow-y: auto;
 }
 

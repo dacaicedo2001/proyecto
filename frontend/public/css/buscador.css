@@ -1,0 +1,19 @@
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding);
+    gap: var(--padding);
+}
+
+.buscador input {
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1.5px solid var(--gris-oscuro);
+    border-radius: 2px;
+    padding: 10px;
+    outline-color: #00AAE4;
+}
+
+.buscador button {
+    display: none;
+}

@@ -5,3 +5,9 @@
     padding-bottom: 5px;
     border-bottom: 5px solid var(--amarillo);
 }
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+}

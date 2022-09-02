@@ -31,4 +31,7 @@
 
     /* Estilos de la barra de filtro */
     define("ASIDE", "/proyecto/frontend/public/css/aside.css");
+
+    /* Esttilos de la barra de busqueda */
+    define("BUSCADOR", "/proyecto/frontend/public/css/buscador.css");
 ?>

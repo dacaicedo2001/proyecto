@@ -17,23 +17,18 @@
         <?php require_once("../../src/routes/script.php"); ?>
         <header>
             <?php require_once("../../src/components/navegacion.php"); ?>
-            <div class="contenedor-titulo">
-                <?php
-                    require_once("../../src/components/titulo.php");
-                    titulo("noticias");
-                ?>
-            </div>
+            <?php
+                require_once("../../src/components/titulo.php");
+                titulo("noticias");
+            ?>
             <hr>
         </header>
         <main>
-            <div class="buscador">
-                <input type="search" id="buscadorNoticias" placeholder="Nombre de tu noticia">
-                <button>buscar</button>
-            </div>
+            <?php require("../../src/components/buscador.php"); ?>
             <section class="sesion-noticia">
                 <div class="categoria-noticia">
                     <h3>deportes</h3>
-                    <a href="#">ver todo sobre deportes</a>
+                    <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre deportes</a>
                 </div>
                 <div class="destacadas">
                     <?php require("../../src/components/articulo.php"); ?>
@@ -53,7 +48,7 @@
             <section class="sesion-noticia">
                 <div class="categoria-noticia">
                     <h3>cultura</h3>
-                    <a href="#">ver todo sobre cultura</a>
+                    <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre cultura</a>
                 </div>
                 <div class="destacadas">
                     <?php require("../../src/components/articulo.php"); ?>
@@ -71,7 +66,7 @@
             <section class="sesion-noticia">
                 <div class="categoria-noticia">
                     <h3>educación</h3>
-                    <a href="#">ver todo sobre educación</a>
+                    <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre educación</a>
                 </div>
                 <div class="destacadas">
                     <?php require("../../src/components/articulo.php"); ?>
@@ -89,7 +84,7 @@
             <section class="sesion-noticia">
                 <div class="categoria-noticia">
                     <h3>economía</h3>
-                    <a href="#">ver todo sobre deportes</a>
+                    <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre deportes</a>
                 </div>
                 <div class="destacadas">
                     <?php require("../../src/components/articulo.php"); ?>

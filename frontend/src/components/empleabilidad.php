@@ -1,9 +1,10 @@
 <link rel="stylesheet" href=<?php echo EMPLEABILIDAD; ?>>
 <section class="empleabilidad">
     <div class="contenedor-empleabilidad">
-        <div class="contenedor-titulo">
-            <h2 class="titulo">empleabilidad</h2>
-        </div>
+        <?php
+            require_once("../src/components/titulo.php");
+            titulo("empleabilidad");
+        ?>
         <div class="tabla">
             <table class="tabla">
                 <thead>
