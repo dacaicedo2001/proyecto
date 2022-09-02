@@ -23,7 +23,9 @@
             <hr>
         </header>
         <main>
-            <?php require("../../src/components/buscador.php"); ?>
+            <?php require_once("../../src/components/buscador.php"); ?>
+            <?php require_once("../../src/components/categoria.php"); ?>
+            <?php require_once("../../src/components/aside.php"); ?>
         </main>
         <?php include_once("../../src/components/footer.php"); ?>
     </body>

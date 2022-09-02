@@ -1,0 +1,12 @@
+.paginacion, .paginas {
+    display: flex;
+}
+
+.controlador, .paginas li button {
+    padding: 5px 10px;
+    margin: 0px 2px;
+    text-transform: capitalize;
+    color: var(--verde);
+    font-weight: bold;
+    font-size: 1rem;
+}

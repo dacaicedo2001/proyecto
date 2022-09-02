@@ -34,4 +34,10 @@
 
     /* Esttilos de la barra de busqueda */
     define("BUSCADOR", "/proyecto/frontend/public/css/buscador.css");
+
+    /* Estilos de las categorías de las noticias */
+    define("CATEGORIA", "/proyecto/frontend/public/css/categoria.css");
+
+    /* Estilos de la paginación */
+    define("PAGINACION", "/proyecto/frontend/public/css/paginacion.css");
 ?>
