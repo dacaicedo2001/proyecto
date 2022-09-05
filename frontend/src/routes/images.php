@@ -5,6 +5,9 @@
     /* Fondo con la imagen de buenaventura */
     define("FONDO", "/proyecto/frontend/src/images/fondo.png");
 
+    /* Imagen de perfil de los usuarios */
+    define("PERFIL", "/proyecto/frontend/src/images/usuario.png");
+
     /* Imagenes del banner dinamico */
     define("ENTIDAD1", "../src/images/primera.jpg");
     define("ENTIDAD2", "../src/images/segunda.jpg");

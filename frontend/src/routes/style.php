@@ -40,4 +40,10 @@
 
     /* Estilos de la paginación */
     define("PAGINACION", "/proyecto/frontend/public/css/paginacion.css");
+
+    /* Estilos de los comentaristas de las noticias */
+    define("COMENTARISTA", "/proyecto/frontend/public/css/comentarista.css");
+
+    /* Estilos de la información de cada noticia */
+    define("INFORMACION_NOTICIA", "/proyecto/frontend/public/css/informacion_noticia.css");
 ?>

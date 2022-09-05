@@ -7,4 +7,7 @@
 
     /* Página de una categoría especifica de noticias */
     define("CATEGORIA_NOTICIA", "/proyecto/frontend/public/view/categoria_noticia.php");
+
+    /* Página al seleccionar una noticia */
+    define("LEER_NOTICIA", "/proyecto/frontend/public/view/leer_noticia.php");
 ?>

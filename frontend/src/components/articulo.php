@@ -6,5 +6,5 @@
     <h3>titulo</h3>
     <hr>
     <p>17 de junio de 2022</p>
-    <a href="#">leer mas...</a>
+    <a href=<?php echo LEER_NOTICIA; ?>>leer mas</a>
 </article>

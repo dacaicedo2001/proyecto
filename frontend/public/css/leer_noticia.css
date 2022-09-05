@@ -1,0 +1,41 @@
+
+.contenedor-editor {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: aqua;
+}
+
+.editor {
+    width: 50px;
+    height: 50px;
+}
+
+.titulo-noticia {
+    text-transform: capitalize;
+    text-align: center;
+    padding: var(--padding);
+}
+
+.contenedor-imagen img {
+    height: 250px;
+    width: 100%;
+    border-radius: var(--bordes);
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 15px 30px 30px 30px;
+    font-size: 1.2rem;
+}
+
+.contenedor-imagen {
+    padding: 0px 15px 15px 15px;
+}
+
+hr {
+    border-color: transparent;
+    background-color: #CCC;
+    color: #CCC;
+    outline-color: #CCC;
+}

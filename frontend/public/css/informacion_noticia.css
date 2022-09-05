@@ -1,0 +1,16 @@
+.contenedor-informacion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    padding: var(--padding);
+}
+
+.contenedor-informacion i {
+    font-size: 1.5rem;
+    color: var(--verde);
+}
+
+.contenedor-informacion span {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
