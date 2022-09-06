@@ -44,18 +44,19 @@
                     <img class="editor" src=<?php echo PERFIL; ?> alt="usuario">
                 </div>
                 <div>
-                    <h4>pepito perez</h4>
-                    <p>redactor</p>
+                    <h4 class="nombre">pepito perez</h4>
+                    <p class="rol">redactor</p>
                 </div>
             </div>
-            <div>
-                <p>dejanos conocer tu opinion.</p>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu comentario..."></textarea>
+            <div class="comentarios">
+                <p>Dejanos conocer tu opinión.</p>
+                <textarea class="texto" name="" id="" cols="30" rows="10" placeholder="Escribe tu comentario..."></textarea>
                 <input type="button" value="comentar">
             </div>
             <hr>
             <div>
-                <h3>opiniones</h3>
+                <h3 class="opiniones">opiniones</h3>
+                <?php require("../../src/components/comentarista.php"); ?>
                 <?php require("../../src/components/comentarista.php"); ?>
                 <?php require("../../src/components/comentarista.php"); ?>
             </div>

@@ -36,6 +36,7 @@ nav {
     width: 50%;
     text-align: center;
     text-transform: capitalize;
+    font-size: 1.2rem;
 }
 
 .inicio li:nth-child(1) a {
