@@ -18,7 +18,7 @@
         <header>
             <?php require_once("../src/components/navegacion.php"); ?>
             <?php require_once("../src/components/banner.php"); ?>
-            <h1>red local de emprendimientoo</h1>
+            <h1>red local de emprendimiento</h1>
         </header>
         <main>
             <?php require_once("../src/components/quienes_somos.php"); ?>

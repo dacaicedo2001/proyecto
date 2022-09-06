@@ -19,7 +19,7 @@
                 <li><a href="#">proyecto 9</a></li>
                 <li><a href="#">proyecto 10</a></li>
             </ul>
-            <a href="#">ver todos los proyectos</a>
+            <a href=<?php echo PAGINA_PROYECTOS; ?>>ver todos los proyectos</a>
         </aside>
         <hr>
         <div class="vista">

@@ -14,7 +14,7 @@
             <a>publicaciones <i class="fa-solid fa-angle-down"></i></a>
             <ul class="sub-menu">
                 <li><a href=<?php echo PAGINA_NOTICIAS; ?> class="item-menu">noticias</a></li>
-                <li><a href="#" class="item-menu">proyectos</a></li>
+                <li><a href=<?php echo PAGINA_PROYECTOS; ?> class="item-menu">proyectos</a></li>
                 <li><a href="#" class="item-menu">empleabilidad</a></li>
                 <li><a href="#" class="item-menu">expoferias y eventos</a></li>
             </ul>

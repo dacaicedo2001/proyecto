@@ -10,4 +10,7 @@
 
     /* Página al seleccionar una noticia */
     define("LEER_NOTICIA", "/proyecto/frontend/public/view/leer_noticia.php");
+
+    /* Página proyectos */
+    define("PAGINA_PROYECTOS", "/proyecto/frontend/public/view/proyectos.php");
 ?>
