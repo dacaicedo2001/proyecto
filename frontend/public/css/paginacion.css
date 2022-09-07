@@ -1,5 +1,11 @@
+
+.paginacion {
+    padding: var(--padding) 0px;
+}
+
 .paginacion, .paginas {
     display: flex;
+    justify-content: center;
 }
 
 .controlador, .paginas li button {

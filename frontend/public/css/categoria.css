@@ -6,7 +6,7 @@
 }
 
 .contenedor-categoria {
-    padding: 0px var(--padding) var(--padding) var(--padding);
+    padding: 0px var(--padding);
 }
 
 .contenedor-categoria article div img {
