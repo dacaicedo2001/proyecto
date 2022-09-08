@@ -1,0 +1,28 @@
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    padding: var(--padding);
+}
+
+.texto {
+    resize: none;
+    outline-color: var(--celeste);
+    font-size: 1rem;
+}
+
+.comentarios p {
+    font-size: 1.2rem;
+}
+
+.comentarios input[type="button"] {
+    width: 40%;
+    margin: auto;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background-color: var(--verde);
+    border-radius: var(--bordes);
+    color: var(--blanco);
+    padding: 10px 0px;
+}

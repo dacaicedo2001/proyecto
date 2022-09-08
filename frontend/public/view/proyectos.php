@@ -27,16 +27,10 @@
             <?php require("../../src/components/buscador.php"); ?>
             <section>
                 <div class="contenedor-articulos">
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
-                    <?php require("../../src/components/articulo.php"); ?>
+                    <?php
+                        require("../../src/components/articulo.php");
+                        for($i = 0; $i < 10; $i++) { ruta(LEER_PROYECTO); }
+                    ?>
                 </div>
             </section>
             <?php require_once("../../src/components/aside.php"); ?>

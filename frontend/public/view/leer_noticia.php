@@ -33,26 +33,10 @@
             <hr>
         </header>
         <main>
-            <h2 class="titulo-noticia">titulo</h2>
-            <div class="contenedor-imagen">
-                <img src=<?php echo FONDO; ?> alt="imagen">
-            </div>
-            <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad architecto modi inventore est voluptates, doloribus officia ipsum minima adipisci quaerat quasi deleniti dolores et atque, obcaecati exercitationem sapiente vitae veniam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa temporibus saepe modi nam. Doloribus temporibus iusto quasi doloremque tenetur nam quas, possimus quaerat libero perferendis nisi ducimus eaque soluta voluptates.</p>
+            <?php require_once("../../src/components/contenido.php"); ?>
             <hr>
-            <div class="contenedor-editor">
-                <div>
-                    <img class="editor" src=<?php echo PERFIL; ?> alt="usuario">
-                </div>
-                <div>
-                    <h4 class="nombre">pepito perez</h4>
-                    <p class="rol">redactor</p>
-                </div>
-            </div>
-            <div class="comentarios">
-                <p>Dejanos conocer tu opinión.</p>
-                <textarea class="texto" name="" id="" cols="30" rows="10" placeholder="Escribe tu comentario..."></textarea>
-                <input type="button" value="comentar">
-            </div>
+            <?php require_once("../../src/components/editor.php"); ?>
+            <?php require_once("../../src/components/comentario.php"); ?>
             <hr>
             <div>
                 <h3 class="opiniones">opiniones</h3>

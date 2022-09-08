@@ -46,4 +46,13 @@
 
     /* Estilos de la información de cada noticia */
     define("INFORMACION_NOTICIA", "/proyecto/frontend/public/css/informacion_noticia.css");
+
+    /* Estilos de el contenido de proyectos y noticias */
+    define("CONTENIDO", "/proyecto/frontend/public/css/contenido.css");
+
+    /* Estilos del editor de las noticias y proyectos */
+    define("EDITOR", "/proyecto/frontend/public/css/editor.css");
+
+    /* Estilo de la caja de comentarios */
+    define("COMENTARIO", "/proyecto/frontend/public/css/comentario.css");
 ?>

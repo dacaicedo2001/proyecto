@@ -1,0 +1,21 @@
+.titulo-noticia {
+    text-transform: capitalize;
+    text-align: center;
+    padding: var(--padding);
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 15px 30px 30px 30px;
+    font-size: 1.2rem;
+}
+
+.contenedor-imagen img {
+    height: 250px;
+    width: 100%;
+    border-radius: var(--bordes);
+}
+
+.contenedor-imagen {
+    padding: 0px var(--padding) var(--padding) var(--padding);
+}
