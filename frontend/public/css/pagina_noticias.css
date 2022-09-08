@@ -1,3 +1,8 @@
+
+.hidden {
+    display: none !important;
+}
+
 .sesion-noticia {
     border: 1.5px solid var(--negro);
     border-radius: var(--bordes);

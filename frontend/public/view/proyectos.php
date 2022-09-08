@@ -39,6 +39,7 @@
                     <?php require("../../src/components/articulo.php"); ?>
                 </div>
             </section>
+            <?php require_once("../../src/components/aside.php"); ?>
             <?php include_once("../../src/components/paginacion.php"); ?>
         </main>
         <?php include_once("../../src/components/footer.php"); ?>

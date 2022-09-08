@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/22cdbfb1be.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/categoria_noticia.css">
         <title>Document</title>
     </head>
     <body>

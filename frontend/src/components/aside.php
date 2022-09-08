@@ -19,7 +19,17 @@
             </select>
             <button>buscar</button>
         </div>
+        <hr class="hidden">
+        <div class="filtro hidden">
+            <h3>buscar por estado</h3>
+            <select class="opcion">
+                <option value="seleccionar">seleccionar</option>
+                <option value="activo">activo</option>
+                <option value="proceso">en proceso</option>
+                <option value="terminado">terminado</option>
+            </select>
+            <button>buscar</button>
+        </div>
     </div>
-    <!-- <i class="fa-solid fa-angle-right"></i> -->
 </aside>
 <script src=<?php echo FILTRO; ?>></script>
