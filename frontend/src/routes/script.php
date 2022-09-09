@@ -4,4 +4,7 @@
 
     /* Script del aside lateral de filtros */
     define("FILTRO", "/proyecto/frontend/src/js/aside.js");
+
+    /* Script que cierra la barra de menu al seleccionar una opcion */
+    define("MENUBAR", "/proyecto/frontend/src/js/menuItems.js");
 ?>

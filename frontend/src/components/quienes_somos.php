@@ -1,5 +1,5 @@
 <link rel="stylesheet" href=<?php echo QUIENES_SOMOS; ?>>
-<section class="quienes-somos">
+<section class="quienes-somos" id="quienes-somos">
     <?php
         require_once("../src/components/titulo.php");
         titulo("¿quiénes somos?");

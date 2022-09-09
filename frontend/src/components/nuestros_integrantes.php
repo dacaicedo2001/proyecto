@@ -1,5 +1,5 @@
 <link rel="stylesheet" href=<?php echo NUESTROS_INTEGRANTES; ?>>
-<section class="nuestros-integrantes">
+<section class="nuestros-integrantes" id="nuestros-integrantes">
     <?php
         require_once("../src/components/titulo.php");
         require_once("../src/components/empresa.php");

@@ -13,9 +13,9 @@
         <li>
             <a>publicaciones <i class="fa-solid fa-angle-down"></i></a>
             <ul class="sub-menu">
-                <li><a href=<?php echo PAGINA_NOTICIAS; ?> class="item-menu">noticias</a></li>
-                <li><a href=<?php echo PAGINA_PROYECTOS; ?> class="item-menu">proyectos</a></li>
-                <li><a href="#" class="item-menu">empleabilidad</a></li>
+                <li><a href=<?php echo PAGINA_PRINCIPAL."#noticias"; ?> class="item-menu">noticias</a></li>
+                <li><a href=<?php echo PAGINA_PRINCIPAL."#proyectos"; ?> class="item-menu">proyectos</a></li>
+                <li><a href=<?php echo PAGINA_PRINCIPAL."#empleabilidad"; ?> class="item-menu">empleabilidad</a></li>
                 <li><a href="#" class="item-menu">expoferias y eventos</a></li>
             </ul>
         </li>
@@ -40,14 +40,14 @@
         <li>
             <a>nosotros<i class="fa-solid fa-angle-down"></i></a>
             <ul class="sub-menu">
-                <li><a href="#" class="item-menu">¿quienes somos?</a></li>
-                <li><a href="#" class="item-menu">nuestros integrantes</a></li>
+                <li><a href=<?php echo PAGINA_PRINCIPAL."#quienes-somos"; ?> class="item-menu">¿quienes somos?</a></li>
+                <li><a href=<?php echo PAGINA_PRINCIPAL."#nuestros-integrantes"; ?> class="item-menu">nuestros integrantes</a></li>
                 <li><a href="#" class="item-menu">lineas de credito</a></li>
                 <li><a href="#" class="item-menu">informacion estadistica</a></li>
                 <li><a href="#" class="item-menu">convenios</a></li>
             </ul>
         </li>
-        <li><a href="#" class="item-menu">contacto</a></li>
+        <li><a href=<?php echo CONTACTO; ?> class="item-menu">contacto</a></li>
     </ul>
     <!-- Botones de sesion -->
     <ul class="inicio">
@@ -56,3 +56,4 @@
     </ul>
 </nav>
 <script src=<?php echo MENU; ?>></script>
+<script src=<?php echo MENUBAR; ?>></script>

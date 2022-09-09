@@ -1,5 +1,5 @@
 <link rel="stylesheet" href=<?php echo EMPLEABILIDAD; ?>>
-<section class="empleabilidad">
+<section class="empleabilidad" id="empleabilidad">
     <div class="contenedor-empleabilidad">
         <?php
             require_once("../src/components/titulo.php");

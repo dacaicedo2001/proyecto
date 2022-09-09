@@ -1,5 +1,5 @@
 <link rel="stylesheet" href=<?php echo NOTICIAS; ?>>
-<section class="noticias">
+<section class="noticias" id="noticias">
     <div class="contenedor-noticias">
         <?php
             require_once("../src/components/titulo.php");

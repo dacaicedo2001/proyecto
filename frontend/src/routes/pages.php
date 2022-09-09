@@ -16,4 +16,7 @@
 
     /* Pagina para leer los proyectos */
     define("LEER_PROYECTO", "/proyecto/frontend/public/view/leer_proyecto.php");
+
+    /* Página de contacto */
+    define("CONTACTO", "/proyecto/frontend/public/view/contacto.php");
 ?>
