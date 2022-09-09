@@ -1,0 +1,28 @@
+.opiniones {
+    text-transform: capitalize;
+    padding: var(--padding);
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    padding: 0px 30px 30px;
+}
+
+.botones button {
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background-color: var(--verde);
+    border-radius: var(--bordes);
+    color: var(--blanco);
+    padding: 10px 0px;
+}
+
+hr {
+    border-color: transparent;
+    background-color: #CCC;
+    color: #CCC;
+    outline-color: #CCC;
+}

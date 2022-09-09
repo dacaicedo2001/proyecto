@@ -5,9 +5,17 @@
     padding: var(--padding);
 }
 
+.contenedor-informacion li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .contenedor-informacion i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--verde);
+    text-align: center;
+    width: 40px;
 }
 
 .contenedor-informacion span {

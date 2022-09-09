@@ -32,7 +32,7 @@
                     <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre deportes</a>
                 </div>
                 <div class="destacadas">
-                    <?php for($i = 0; $i < 10; $i++) { ruta(LEER_NOTICIA); } ?>
+                    <?php for($i = 0; $i < 10; $i++) ruta(LEER_NOTICIA); ?>
                 </div>
                 <!-- <i id="anterior" class="fa-solid fa-angles-left flecha izq"></i> -->
                 <!-- <i id="siguiente" class="fa-solid fa-angles-right flecha der"></i> -->
@@ -43,7 +43,7 @@
                     <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre cultura</a>
                 </div>
                 <div class="destacadas">
-                    <?php for($i = 0; $i < 10; $i++) { ruta(LEER_NOTICIA); } ?>
+                    <?php for($i = 0; $i < 10; $i++) ruta(LEER_NOTICIA); ?>
                 </div>
             </section>
             <section class="sesion-noticia">
@@ -52,7 +52,7 @@
                     <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre educación</a>
                 </div>
                 <div class="destacadas">
-                    <?php for($i = 0; $i < 10; $i++) { ruta(LEER_NOTICIA); } ?>
+                    <?php for($i = 0; $i < 10; $i++) ruta(LEER_NOTICIA); ?>
                 </div>
             </section>
             <section class="sesion-noticia">
@@ -61,7 +61,7 @@
                     <a href=<?php echo CATEGORIA_NOTICIA; ?>>ver todo sobre deportes</a>
                 </div>
                 <div class="destacadas">
-                    <?php for($i = 0; $i < 10; $i++) { ruta(LEER_NOTICIA); } ?>
+                    <?php for($i = 0; $i < 10; $i++) ruta(LEER_NOTICIA); ?>
                 </div>
             </section>
             <?php include_once("../../src//components/aside.php"); ?>
