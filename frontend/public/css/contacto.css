@@ -43,6 +43,11 @@ label {
     text-transform: capitalize;
 }
 
+textarea {
+    width: 100%;
+    resize: none;
+}
+
 .campo-dato input, textarea {
     font-size: 1.2rem;
     padding: 5px;
@@ -68,10 +73,7 @@ label {
 }
 
 /* Mapa */
-.mapa, textarea {
-    width: 100%;
-}
-
 .mapa {
+    width: 100%;
     margin: var(--padding) 0px;
 }
