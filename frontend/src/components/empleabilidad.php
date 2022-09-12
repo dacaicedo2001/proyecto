@@ -104,7 +104,7 @@
             </table>
         </div>
         <div class="contenedor-titulo">
-            <a class="titulo bold" href="#">ver todas las ofertas</a>
+            <a class="titulo" href="#">ver todas las ofertas</a>
         </div>
     </div>
 </section>

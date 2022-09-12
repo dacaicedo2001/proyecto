@@ -11,6 +11,6 @@
                 for($i = 0; $i < 10; $i++) ruta(LEER_NOTICIA);
             ?>
         </div>
-        <a class="titulo bold" href=<?php echo PAGINA_NOTICIAS; ?>>ver todas las noticias</a>
+        <a class="titulo" href=<?php echo PAGINA_NOTICIAS; ?>>ver todas las noticias</a>
     </div>
 </section>

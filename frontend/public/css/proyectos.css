@@ -25,6 +25,11 @@
     text-align: center;
 }
 
+.vista p {
+    font-size: 1.2rem;
+    padding: 0px 5px;
+}
+
 .lista-proyectos ul {
     padding: 0px 30px;
     height: 100px;

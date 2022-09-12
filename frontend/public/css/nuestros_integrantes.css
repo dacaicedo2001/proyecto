@@ -10,6 +10,7 @@
 .nuestros-integrantes p {
     text-align: justify;
     padding: 0px var(--padding);
+    font-size: 1.2rem;
 }
 
 .lista-entidades {
