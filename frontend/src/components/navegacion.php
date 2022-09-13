@@ -55,5 +55,8 @@
         <li><a href="#" id="boton-registro">registro</a></li>
     </ul>
 </nav>
+<?php require_once($_SERVER['DOCUMENT_ROOT']."/proyecto/frontend/src/templates/popup_ingreso.php"); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT']."/proyecto/frontend/src/templates/popup_registro.php"); ?>
 <script src=<?php echo MENU; ?>></script>
 <script src=<?php echo MENUBAR; ?>></script>
+<script src=<?php echo ABRIR_POPUP; ?>></script>

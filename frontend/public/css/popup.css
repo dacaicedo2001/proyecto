@@ -1,0 +1,80 @@
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+    width: 90%;
+    transform: translate(60%, -50%);
+    border: 2px solid var(--gris-oscuro);
+    padding: var(--padding);
+    background-color: var(--blanco);
+    border-radius: var(--bordes);
+    transition: transform 0.5s ease;
+}
+
+.largo {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.popup label, .popup input, .popup a {
+    font-size: 1.2rem;
+}
+
+.popup a {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.visible {
+    transform: translate(-50%, -50%);
+}
+
+.popup i {
+    display: block;
+    text-align: end;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.popup input {
+    width: 100%;
+    border: 1.5px solid var(--gris-oscuro);
+    border-radius: 2px;
+    padding: 10px;
+    outline-color: #00AAE4;
+}
+
+.popup input[type=submit] {
+    background-color: var(--verde);
+    color: var(--blanco);
+    text-transform: capitalize;
+    margin: 0px auto 15px auto;
+    border: none;
+    border-radius: var(--bordes);
+    padding: 10px 0px;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.popup h2, .popup label {
+    color: var(--verde);
+    text-transform: capitalize;
+}
+
+.popup h2 {
+    text-align: center;
+    margin: 20px 0px;
+}

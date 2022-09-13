@@ -7,4 +7,7 @@
 
     /* Script que cierra la barra de menu al seleccionar una opcion */
     define("MENUBAR", "/proyecto/frontend/src/js/menuItems.js");
+
+    /* Script que muestra las ventanas emergentes */
+    define("ABRIR_POPUP", "/proyecto/frontend/src/js/popup.js");
 ?>

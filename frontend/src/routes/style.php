@@ -55,4 +55,7 @@
 
     /* Estilo de la caja de comentarios */
     define("COMENTARIO", "/proyecto/frontend/public/css/comentario.css");
+
+    /* Estilos de las ventanas emergentes */
+    define("POPUP", "/proyecto/frontend/public/css/popup.css");
 ?>
