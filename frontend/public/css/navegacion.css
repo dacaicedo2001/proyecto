@@ -32,6 +32,12 @@ nav {
 }
 
 /* Botones de inicio de sesion y registro */
+.inicio {
+    position: fixed;
+    top: 60px;
+    z-index: 5;
+}
+
 .inicio li {
     width: 50%;
     text-align: center;
@@ -39,23 +45,25 @@ nav {
     font-size: 1.2rem;
 }
 
-.inicio li:nth-child(1) a {
+.inicio li:nth-child(1) a, .inicio li:nth-child(2) a {
     display: block;
-    background-color: var(--amarillo);
-    color: var(--negro);
     padding: var(--padding) 0px;
 }
 
+.inicio li:nth-child(1) a {
+    background-color: var(--amarillo);
+    color: var(--negro);
+}
+
 .inicio li:nth-child(2) a {
-    display: block;
     background-color: var(--verde);
     color: var(--blanco);
-    padding: var(--padding) 0px;
 }
 
 /* Barra de navegacion */
 .iconos {
     position: fixed;
+    top: 0;
     background-color: #FAFAFA;
     z-index: 20;
     height: 60px;
@@ -111,20 +119,24 @@ nav {
 }
 
 @media screen and (min-width: 768px)  { /* No olvidar esta parte <and (orientation: portrait)> */
-    nav {
+    /* nav {
         flex-flow: row wrap;
         background-color: #FAFAFA;
+        background-color: blue;
     }
 
     #lista-items {
         display: flex;
-        position: static;
         overflow: visible;
+        position: static;
         flex-grow: 1;
-        z-index: 0;
+        z-index: 100;
+        width: fit-content;
+        height: 30px;
         justify-content: space-around;
+        align-items: center;
         background-color: #FAFAFA;
-        /* background-color: violet; */
+        background-color: violet;
     }
 
     #lista-items a {
@@ -140,13 +152,71 @@ nav {
     }
 
     .contenedor-iconos {
-        width: auto;
+        width: fit-content;
     }
 
     .iconos {
-        position: static;
-        z-index: 0;
+        background-color: aqua;
+        
+        width: fit-content;
+        position: fixed;
+        top: 0;
+        z-index: 100;
         padding: 0px 0px 0px var(--padding);
+    }
+
+    .sub-menu {
+        position: absolute;
+        margin-top: 5px;
+        padding: 0px;
+        background-color: aqua;
+    }
+
+    .sub-menu li {
+        display: block;
+        padding: 50px;
+    } */
+
+    nav {
+        flex-flow: row wrap;
+        background-color: #FAFAFA;
+        background-color: blue;
+    }
+
+    #lista-items {
+        display: flex;
+        overflow: visible;
+        position: static;
+        flex-grow: 1;
+        top: 0;
+        z-index: 100;
+        width: fit-content;
+        height: 30px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FAFAFA;
+        background-color: violet;
+    }
+
+    #lista-items a {
+        color: var(--verde);
+        font-size: 1rem;
+        margin: 0px;
+        padding: 0px;
+        letter-spacing: 0px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .contenedor-iconos {
+        width: fit-content;
+    }
+
+    .iconos {
+        background-color: aqua;
+        width: fit-content;
     }
 
     .sub-menu {

@@ -28,6 +28,7 @@ html, body {
     background-color: var(--blanco);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
+    margin-top: 26px;
 }
 
 a {
